@@ -1,0 +1,86 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form.value)">
+  <div class="form-group">
+    <label for="IMAGEURL">Image Url</label>
+    <input
+      class="form-control"
+      id="IMAGEURL"
+      placeholder="Enter IMAGE URL"
+      ngModel
+      name="img"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="NAME">NAME</label>
+    <input
+      class="form-control"
+      id="NAME"
+      placeholder="NAME"
+      ngModel
+      name="name"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="model">Calories</label>
+    <input
+      class="form-control"
+      id="model"
+      placeholder="Calories"
+      ngModel
+      name="Calories"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="resolution">Protein</label>
+    <input
+      class="form-control"
+      id="resolution"
+      placeholder="Protein"
+      ngModel
+      name="Protein"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="Processor">Vitamin</label>
+    <input
+      class="form-control"
+      id="Processor"
+      placeholder="Vitamin"
+      ngModel
+      name="Vitamin"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="HardDrive">Magnesium</label>
+    <input
+      class="form-control"
+      id="HardDrive"
+      placeholder="Magnesium"
+      ngModel
+      name="Magnesium"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="RAM">Vitamin D</label>
+    <input
+      class="form-control"
+      id="RAM"
+      placeholder="Vitamin D"
+      ngModel
+      name="Vitamin D"
+      required
+    />
+  </div>
+  <button
+    type="submit"
+    class="btn btn-primary btn-lg btn-block"
+    [disabled]="!form.valid"
+  >
+    Submit
+  </button>
+</form>

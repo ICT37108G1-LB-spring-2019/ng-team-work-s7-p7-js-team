@@ -1,0 +1,24 @@
+{
+  "cakes": [
+    {
+      "img": "https://i.pinimg.com/originals/72/7c/42/727c42e18724e36c6b81df3d393fbbb5.jpg",
+      "name": "cheesecake",
+      "Calories": 321,
+      "Protein": 6,
+      "Vitamin": "A",
+      "Magnesium": "2%",
+      "Vitamin D": "4%",
+      "id": 4
+    },
+    {
+      "img": "https://img.taste.com.au/9isesBer/taste/2016/11/caramello-cake-105070-1.jpeg",
+      "name": "Caramello cake",
+      "Calories": "321",
+      "Protein": "6",
+      "Vitamin": "A",
+      "Magnesium": "4%",
+      "Vitamin D": "2%",
+      "id": 5
+    }
+  ]
+}
